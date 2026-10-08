@@ -1,6 +1,6 @@
 # FIFA 2026 World Cup — Interactive Power BI Dashboard
 
-![Dashboard Overview](images/01-overview.png)
+![Dashboard Overview](01-overview.png)
 
 ## 📌 Project Overview
 This end-to-end data analytics project explores the FIFA 2026 World Cup. It covers the complete data pipeline: extracting raw CSV data, cleaning and transforming it using Python (pandas), building a relational data model in Power BI, authoring DAX measures, and designing a 5-page interactive dashboard. 
@@ -59,23 +59,23 @@ A **Star Schema** was implemented to ensure optimal performance and accurate fil
 - **Visuals:** Bar chart of Goals by Team, Line chart of Goals over Time, and a full Match Results table.
 
 ### 2. Team Analysis
-**![Team Analysis Page](images/02-team-analysis.png)**
+**![Team Analysis Page](02-team-analysis.png)**
 - **Interactivity:** Team slicer (dropdown).
 - **Visuals:** Donut chart of Match Outcomes (Win/Draw/Loss), Bar chart of Top Scorers for the selected team, and a detailed Match Statistics table (Possession, Shots, Corners, Fouls).
 
 ### 3. Player Analysis
-**![Player Analysis Page](images/03-player-analysis.png)**
+**![Player Analysis Page](03-player-analysis.png)**
 - **Interactivity:** Player slicer (dropdown).
 - **KPIs:** Selected Assists, Selected Minutes, Selected Goals, Selected Goals per 90, Selected Avg Rating.
 - **Visuals:** Scatter plot of Minutes vs Goals (sized by Average Rating), Bar chart of Top 15 Tournament Scorers, and a comprehensive Player Performance table.
 
 ### 4. Player Comparison
-**![Player Comparison Page](images/04-player-comparison.png)**
+**![Player Comparison Page](04-player-comparison.png)**
 - **Interactivity:** Two independent player slicers (Player A and Player B).
 - **Visuals:** Side-by-side KPI cards comparing Goals, Assists, Minutes, and Avg Rating. Includes a Top 15 Scorers chart and a comparative stats table.
 
 ### 5. Tournament Trends
-**![Tournament Trends Page](images/05-tournament-trends.png)**
+**![Tournament Trends Page](05-tournament-trends.png)**
 - **KPIs:** Goals per 90, Total Yellow Cards, Total Red Cards.
 - **Visuals:** Line chart of Goals over Time, Bar chart of Goals by Tournament Stage, Bar chart of Total Cards by Team, and a Line chart of Cards over Time.
 
