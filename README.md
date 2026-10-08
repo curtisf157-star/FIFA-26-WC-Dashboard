@@ -54,7 +54,7 @@ A **Star Schema** was implemented to ensure optimal performance and accurate fil
 ## 📈 Dashboard Pages
 
 ### 1. Tournament Overview
-**![Overview Page](images/01-overview.png)**
+**![Overview Page](01-overview.png)**
 - **KPIs:** Total Matches, Total Goals, Total Teams, Total Players, Goals per Match.
 - **Visuals:** Bar chart of Goals by Team, Line chart of Goals over Time, and a full Match Results table.
 
@@ -98,3 +98,11 @@ Goals per 90 = DIVIDE([Player Goals] * 90, [Total Minutes])
 Avg Rating = AVERAGE(player_stats[average_rating])
 
 Cards per Team = SUM(player_stats[yellow_cards]) + SUM(player_stats[red_cards])
+
+---
+
+## ⚽ Football Driven Data
+
+**Curtis Ferdinand | Data Analyst | CF Analytics**
+
+*Turning data into information. Turning information into better questions.*
